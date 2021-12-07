@@ -1,17 +1,8 @@
 import React from 'react';
-import User from './User';
-import ErrorBoundary from './ErrorBoundary';
+import Users from './Users';
 
 function App() {
-    const user = {
-        id: 1,
-        username: 'velopert'
-    };
-    return (
-        <ErrorBoundary>
-            <User />
-        </ErrorBoundary>
-    );
+    return <Users />;
 }
 
 export default App;
